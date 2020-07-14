@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var calculatorBrain = CalculatorBrain(resultBMI: 0.0)
+    var calculatorBrain = CalculatorBrain()
 
     @IBOutlet weak var heightvalueTextValue: UILabel!
     @IBOutlet weak var weightvalueTextLabel: UILabel!
