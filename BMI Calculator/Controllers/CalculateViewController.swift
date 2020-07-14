@@ -10,6 +10,7 @@ import UIKit
 
 class CalculateViewController: UIViewController {
     var bmiValue: String?
+    
 
     @IBOutlet weak var bmiLabel: UILabel!
     override func viewDidLoad() {
